@@ -14,4 +14,4 @@ Follow [this](https://balintbanyasz.wordpress.com/2015/03/27/get-validity-vfs-49
 
 ---------
 
-For more help, feel free to email me: **bobocpetre98@gmail.com**
+For more help, feel free to email me: **bobocpetre98@gmail.com** 
