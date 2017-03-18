@@ -2,6 +2,7 @@
 
 wget https://raw.githubusercontent.com/PetreBoboc/vfs495_ubuntu/master/vcsFPServiceDaemon
 sudo cp vcsFPServiceDaemon /etc/init.d/
+sudo chmod 0777 /etc/init.d/vcsFPServiceDaemon
 sudo update-rc.d vcsFPServiceDaemon defaults
 sudo /etc/init.d/vcsFPServiceDaemon start
 
