@@ -27,7 +27,8 @@ Validity VFS495 (138a:003f) drivers &amp; utilities for Ubuntu 16.04
 * Run `sudo /etc/init.d/vcsFPServiceDaemon start` (you will only run this only one time)
 * Run `sudo fprint_demo` and enroll a finger (e.i. Right index)
 8. Reboot
-9. In the log-in screen press Enter and scan your finger. Press Enter once again to log-in (or to rescan your finger)
+9. In the log-in screen press Enter and scan your finger. Press Enter once again to log-in (or to rescan your finger).
+* For GNOME Shell press Enter, in the password input prompt type any character, press Enter again and scan your finger. 
 ---------
 
 For more help, feel free to email me: **bobocpetre98@gmail.com** 
