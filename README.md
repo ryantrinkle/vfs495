@@ -5,6 +5,7 @@ Validity VFS495 (138a:003f) drivers &amp; utilities for Ubuntu 16.04
 ### Setup
 
 1.  Install dependencies with `sudo apt install alien libssl1.0.0 libssl-dev libusb-dev libcrypto++-dev libssl-dev libglib2.0-dev libmagickcore-dev checkinstall libgtk2.0-dev libpam-dev`
+* For Ubuntu 16.10 or later use `sudo apt install libssl1.0.0 libssl-dev libusb-dev libssl-dev libglib2.0-dev libmagickcore-dev  libgtk2.0-dev libpam-dev` and download and install [this](https://github.com/PetreBoboc/vfs495_ubuntu/raw/master/Packages/libcrypto%2B%2B9_5.6.1-6%2Bdeb8u3_amd64.deb) package
 2. Download and install the following packages
 * [validity-sensor-setup_4.5-119_amd64.deb](https://github.com/PetreBoboc/vfs495_ubuntu/blob/master/Packages/validity-sensor-setup_4.5-119_amd64.deb?raw=true)
 * [libfprint_0.0.6-1_amd64.deb](https://github.com/PetreBoboc/vfs495_ubuntu/blob/master/Packages/libfprint_0.0.6-1_amd64.deb?raw=true)
