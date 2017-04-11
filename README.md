@@ -8,10 +8,9 @@ Validity VFS495 (138a:003f) drivers &amp; utilities for Ubuntu 16.04
 * For Ubuntu 16.10 or `sudo apt install libssl1.0.0 libssl-dev libusb-dev libssl-dev libglib2.0-dev libmagickcore-dev  libgtk2.0-dev libpam-dev` and download and install [this](https://github.com/PetreBoboc/vfs495_ubuntu/raw/master/Packages/libcrypto%2B%2B9_5.6.1-6%2Bdeb8u3_amd64.deb) package
 * For Ubuntu 17.04 or later use `sudo apt install libssl1.0.0 libssl-dev libusb-dev libssl-dev libglib2.0-dev libmagickcore-dev  libgtk2.0-dev libpam-dev` and download and install [this](https://github.com/PetreBoboc/vfs495_ubuntu/raw/master/Packages/libcrypto%2B%2B9_5.6.1-6%2Bdeb8u3_amd64.deb) package. <br/> <br/>
 **Also (only for 17.04 or later) run these commands in this order** <br/>
-1'. `wget https://raw.githubusercontent.com/PetreBoboc/vfs495_ubuntu/master/Packages/1704/libMagickCore-6.Q16.so.2` <br/>
-2'. `sudo mv libMagickCore-6.Q16.so.2 /usr/lib/` <br/>
-3'. `wget https://github.com/PetreBoboc/vfs495_ubuntu/raw/master/Packages/1704/libMagickCore-6.Q16.so.2.0.0` <br/>
-4'. `sudo mv libMagickCore-6.Q16.so.2.0.0 /usr/lib/` <br/>
+1'. `wget https://github.com/PetreBoboc/vfs495_ubuntu/raw/master/Packages/1704/libMagickCore-6.Q16.so.2.0.0` <br/>
+2'. `sudo mv libMagickCore-6.Q16.so.2.0.0 /usr/lib/` <br/>
+3'. `sudo ln /usr/lib/libMagickCore-6.Q16.so.2.0.0 /usr/lib/libMagickCore-6.Q16.so.2`
 2. Download and install the following packages
 * [validity-sensor-setup_4.5-119_amd64.deb](https://github.com/PetreBoboc/vfs495_ubuntu/blob/master/Packages/validity-sensor-setup_4.5-119_amd64.deb?raw=true)
 * [libfprint_0.0.6-1_amd64.deb](https://github.com/PetreBoboc/vfs495_ubuntu/blob/master/Packages/libfprint_0.0.6-1_amd64.deb?raw=true)
