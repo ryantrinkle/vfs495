@@ -32,6 +32,3 @@ Validity VFS495 (138a:003f) drivers &amp; utilities for Ubuntu
 8. Reboot
 9. In the log-in screen press Enter and scan your finger. Press Enter once again to log-in (or to rescan your finger).
 * For GNOME Shell press Enter, in the password input prompt type any character, press Enter again and scan your finger. 
----------
-
-For more help, feel free to email me: **bobocpetre98@gmail.com** 
