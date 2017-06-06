@@ -20,13 +20,13 @@ Validity VFS495 (138a:003f) drivers &amp; utilities for Ubuntu
 * `sudo ln /usr/lib/libcryptopp.so.9 /usr/lib/libcrypto.so.0.9.8`
 4. Create init script using these commands **IN THIS ORDER** (or use [initscript.sh](https://raw.githubusercontent.com/PetreBoboc/vfs495_ubuntu/master/initscript.sh))
 * `wget https://raw.githubusercontent.com/PetreBoboc/vfs495_ubuntu/master/vcsFPServiceDaemon`
-* `sudo cp vcsFPServiceDaemon /etc/init.d/`
-* `sudo chmod 0777 /etc/init.d/vcsFPServiceDaemon`
+* `sudo mv vcsFPServiceDaemon /etc/init.d/`
+* `sudo chmod 0755 /etc/init.d/vcsFPServiceDaemon`
 * `sudo update-rc.d vcsFPServiceDaemon defaults`
 * `sudo /etc/init.d/vcsFPServiceDaemon start`
 5. Enable fingerprint login using these commands **IN THIS ORDER**
 * `wget https://raw.githubusercontent.com/PetreBoboc/vfs495_ubuntu/master/fingerprint_auth/modified/common-auth`
-* `sudo cp common-auth /etc/pam.d`
+* `sudo mv common-auth /etc/pam.d`
 6. Prevent fprint_demo from updating usign `sudo apt-mark hold fprint-demo`
 7. Enroll a finger using fprint_demo with `sudo fprint_demo`
 8. Reboot
