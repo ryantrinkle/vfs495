@@ -5,8 +5,8 @@ Validity VFS495 (138a:003f) drivers &amp; utilities for Ubuntu
 ### Setup
 
 1.  Install dependencies with `sudo apt install libssl1.0.0 libusb-dev libcrypto++-dev libssl-dev libglib2.0-dev libmagickcore-dev libgtk2.0-dev libpam-dev`
-* For Ubuntu 16.10, 17.04 or later use `sudo apt install libssl1.0.0 libusb-dev libssl-dev libglib2.0-dev libmagickcore-dev  libgtk2.0-dev libpam-dev` and download and install [this](https://github.com/PetreBoboc/vfs495_ubuntu/raw/master/Packages/libcrypto%2B%2B9_5.6.1-6%2Bdeb8u3_amd64.deb) package <br/> <br/>
-**Also (only for 17.04 or later) run these commands IN THIS ORDER** <br/>
+* For Ubuntu 16.10, 17.04 or greater use `sudo apt install libssl1.0.0 libusb-dev libssl-dev libglib2.0-dev libmagickcore-dev  libgtk2.0-dev libpam-dev` and download and install [this](https://github.com/PetreBoboc/vfs495_ubuntu/raw/master/Packages/libcrypto%2B%2B9_5.6.1-6%2Bdeb8u3_amd64.deb) package <br/> <br/>
+**Also (only for 17.04 or greater) run these commands IN THIS ORDER** <br/>
 1'. `wget https://github.com/PetreBoboc/vfs495_ubuntu/raw/master/Packages/1704/libMagickCore-6.Q16.so.2.0.0` <br/>
 2'. `sudo mv libMagickCore-6.Q16.so.2.0.0 /usr/lib/` <br/>
 3'. `sudo ln /usr/lib/libMagickCore-6.Q16.so.2.0.0 /usr/lib/libMagickCore-6.Q16.so.2`
@@ -34,4 +34,4 @@ Validity VFS495 (138a:003f) drivers &amp; utilities for Ubuntu
 * For GNOME Shell press Enter, in the password input prompt type any character, press Enter again and scan your finger. 
 * For XFCE press two times the log-in button and scan your finger.
 -----
-For more help, feel free to email me: **bobocpetre98@gmail.com**
+For more help, feel free to email me: **petreboboc@tutanota.com**
