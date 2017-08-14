@@ -2,7 +2,12 @@
 Validity VFS495 (138a:003f) drivers &amp; utilities for Ubuntu
 <br/><br/>
 
-### Setup
+### (almost) Auto setup
+1. `wget https://raw.githubusercontent.com/PetreBoboc/vfs495_ubuntu/master/vfs495.sh` <br/>
+2. `sudo chmod +x vfs495.sh`
+3. `sudo ./vfs495.sh`
+
+### Manual setup
 
 1.  Install dependencies with `sudo apt install libssl1.0.0 libusb-dev libcrypto++-dev libssl-dev libglib2.0-dev libmagickcore-dev libgtk2.0-dev libpam-dev`
 * For Ubuntu 16.10, 17.04 or greater use `sudo apt install libssl1.0.0 libusb-dev libssl-dev libglib2.0-dev libmagickcore-dev  libgtk2.0-dev libpam-dev` and download and install [this](https://github.com/PetreBoboc/vfs495_ubuntu/raw/master/Packages/libcrypto%2B%2B9_5.6.1-6%2Bdeb8u3_amd64.deb) package <br/> <br/>
