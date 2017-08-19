@@ -39,4 +39,4 @@ Validity VFS495 (138a:003f) drivers &amp; utilities for Ubuntu
 * For GNOME Shell press Enter, in the password input prompt type any character, press Enter again and scan your finger. 
 * For XFCE press two times the log-in button and scan your finger.
 -----
-For more help, feel free to email me: **petreboboc@tutanota.com**
+For more help, feel free to email me: **petreboboc@posteo.net**
