@@ -24,7 +24,7 @@ if [ "$checkverion" == "DISTRIB_RELEASE=16.10" ];
 	sudo dpkg -i libcrypto++9_5.6.1-6+deb8u3_amd64.deb
 fi
 
-if [ "$checkverion" == "DISTRIB_RELEASE=17.04" ];
+if [ "$checkverion" == "DISTRIB_RELEASE=17.04" ] || [ "$checkverion" == "DISTRIB_RELEASE=17.10" ];
 	then
 	sudo apt install libssl1.0.0 libusb-dev libssl-dev libglib2.0-dev libmagickcore-dev libgtk2.0-dev libpam-dev
 	wget https://github.com/PetreBoboc/vfs495_ubuntu/raw/master/Packages/libcrypto%2B%2B9_5.6.1-6%2Bdeb8u3_amd64.deb
