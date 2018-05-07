@@ -1,4 +1,4 @@
-# Validity VFS495 (138a:003f) driver and utilities for Debian
+# Validity VFS495 (138a:003f) driver and utilities for Debian 9
 
 ### (almost) Auto setup
 
