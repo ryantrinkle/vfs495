@@ -1,4 +1,4 @@
-# Validity VFS495 (138a:003f) driver and utilities for Ubuntu (16.04 / 17.04 / 17.10)
+# Validity VFS495 (138a:003f) driver and utilities for Ubuntu (16.04 / 16.10 / 17.04 / 17.10)
 
 ### (almost) Auto setup
 1. `wget https://raw.githubusercontent.com/PetreBoboc/vfs495_ubuntu/master/vfs495.sh` <br/>
