@@ -7,7 +7,7 @@ Coming soon
 ### Manual setup
 
 1.  Install dependencies with `sudo apt install libssl1.0.0 libusb-dev libssl-dev libglib2.0-dev libmagickcore-dev  libgtk2.0-dev libpam-dev` and download and install [this](https://github.com/PetreBoboc/vfs495_ubuntu/raw/master/Packages/libcrypto%2B%2B9_5.6.1-6%2Bdeb8u3_amd64.deb) package <br/>
-2. Run these commands IN THIS ORDER** <br/>
+2. Run these commands **IN THIS ORDER** <br/>
 * `wget https://github.com/PetreBoboc/vfs495_ubuntu/raw/master/Packages/1704/libMagickCore-6.Q16.so.2.0.0` <br/>
 * `sudo mv libMagickCore-6.Q16.so.2.0.0 /usr/lib/` <br/>
 * `sudo ln /usr/lib/libMagickCore-6.Q16.so.2.0.0 /usr/lib/libMagickCore-6.Q16.so.2`
