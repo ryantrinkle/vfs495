@@ -7,7 +7,7 @@
 3. Download autoinstall script with `wget https://raw.githubusercontent.com/PetreBoboc/vfs495_ubuntu/master/vfs495_debian.sh`
 4. Log is as root with `su`
 5. Run into terminal `chmod +x vfs495_debian.sh && ./vfs495.sh`
-6. Let the script do its magic (you will need to press Enter sometimes, thought)
+6. Let the script do its magic (you will need to press Enter sometimes, though)
 7. Reboot the system
 8. After the system is restarted and you are logged in open fprint_demo (run `fprint_demo` into terminal)
 9. Reboot (again)
