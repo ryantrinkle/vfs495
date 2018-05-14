@@ -2,10 +2,16 @@
 
 # Step 1
 
+apt install multiarch-support
+
+read -p "Press enter to continue"
+
+# Step 2
+
 wget https://github.com/PetreBoboc/vfs495_ubuntu/raw/master/Packages/debian/libssl1.0.0.deb
 dpkg -i libssl1.0.0.deb
 
-# Step 2
+# Step 3
 
 read -p "Press enter to continue"
 
@@ -21,7 +27,7 @@ ln /usr/lib/libMagickCore-6.Q16.so.2.0.0 /usr/lib/libMagickCore-6.Q16.so.2
 
 read -p "Press enter to continue"
 
-# Step 3
+# Step 4
 
 wget https://github.com/PetreBoboc/vfs495_ubuntu/raw/master/Packages/validity-sensor-setup_4.5-119_amd64.deb
 dpkg -i validity-sensor-setup_4.5-119_amd64.deb
@@ -39,12 +45,12 @@ wget https://github.com/PetreBoboc/vfs495_ubuntu/raw/master/Packages/pam-fprint_
 dpkg -i pam-fprint_0.2-1_amd64.deb
 read -p "Press enter to continue"
 
-# Step 4
+# Step 5
 
 ln /usr/lib/libcryptopp.so.9 /usr/lib/libcrypto.so.0.9.8
 read -p "Press enter to continue"
 
-# Step 5
+# Step 6
 
 wget https://raw.githubusercontent.com/PetreBoboc/vfs495_ubuntu/master/vcsFPServiceDaemon
 mv vcsFPServiceDaemon /etc/init.d/
@@ -53,18 +59,18 @@ update-rc.d vcsFPServiceDaemon defaults
 /etc/init.d/vcsFPServiceDaemon start
 read -p "Press enter to continue"
 
-# Step 6
+# Step 7
 
 wget https://raw.githubusercontent.com/PetreBoboc/vfs495_ubuntu/master/fingerprint_auth/modified/common-auth
 mv common-auth /etc/pam.d
 read -p "Press enter to continue"
 
-# Step 7
+# Step 8
 
 ln -s /usr/lib/x86_64-linux-gnu/libssl.so.1.0.0 /usr/lib/libssl.so.10
 ln -s /usr/lib/x86_64-linux-gnu/libssl.so.1.0.0 /usr/lib/libssl.so.0.9.8
 
-# Step 8
+# Step 9
 
 apt-mark hold fprint-demo
 read -p "Press enter to continue"
