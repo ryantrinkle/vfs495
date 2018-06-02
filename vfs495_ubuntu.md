@@ -30,7 +30,7 @@
 5. Enable fingerprint login using these commands **IN THIS ORDER**
 * `wget https://raw.githubusercontent.com/PetreBoboc/vfs495_ubuntu/master/fingerprint_auth/modified/common-auth`
 * `sudo mv common-auth /etc/pam.d`
-6. Prevent fprint_demo from updating usign `sudo apt-mark hold fprint-demo`
+6. Prevent fprint_demo from updating using `sudo apt-mark hold fprint-demo`
 7. Enroll a finger using fprint_demo with `sudo fprint_demo`
 8. Reboot
 9. In the log-in screen press Enter and scan your finger. Press Enter once again to log-in (or to rescan your finger).
