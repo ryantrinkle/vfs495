@@ -1,4 +1,4 @@
-# Validity VFS495 (138a:003f) driver and utilities for Ubuntu 18.04
+# Validity VFS495 (138a:003f) driver and utilities for Ubuntu 18.04/18.10
 
 ### (almost) Auto setup
 
